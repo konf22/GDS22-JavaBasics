@@ -43,6 +43,10 @@ public class Calculator {
         return a - b;
     }
 
+    public static int mult(int a, int b) {
+        return a * b;
+    }
+
     public static double div(int a, double b) {
         if (b == 0) {
             System.out.println("Durch 0 kann nicht dividiert werden");
